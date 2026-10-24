@@ -4,4 +4,4 @@ default:
     echo 'Hello, world!'
 
 compile:
-    typst compile main.typ
+    typst compile main.typ --font-path ./fonts --pretty

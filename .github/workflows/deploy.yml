@@ -13,14 +13,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Setup Typst
+        uses: typst-community/setup-typst@v5
+
+      - name: Setup just
+        uses: extractions/setup-just@v3
+
       - name: Compile Typst document
-        uses: typst-community/typst-action@v1
-        with:
-          source_path: main.typ
-          output_path: resume.pdf
+        run: just compile
 
       - name: Upload PDF Artifact
         uses: actions/upload-artifact@v4
         with:
           name: resume
           path: resume.pdf
+          if-no-files-found: error
