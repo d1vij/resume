@@ -4,4 +4,4 @@ default:
     echo 'Hello, world!'
 
 compile:
-    typst compile main.typ --font-path ./fonts --pretty
+    typst compile main.typ resume.pdf --font-path ./fonts --pretty
