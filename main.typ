@@ -21,7 +21,8 @@
   phone: phone,
   personal-site: personal-site,
   accent-color: "#594c5b",
-  font: "Merriweather",
+  font: "Untitled Serif",
+  font-size: 10pt,
   paper: "a4",
   author-position: left,
   personal-info-position: left,
@@ -41,7 +42,7 @@
  * #generic-one-by-two(left: "", right: "")
  */
 
-== Education
+== EDUCATION
 
 #edu(
   institution: "Pimpri Chinchwad College of Engineering",
@@ -66,7 +67,7 @@
 XII - 81.5% | X - 93.4%
 
 
-== Skills
+== SKILLS
 - *Languages*: C, C++, TypeScript, Python, SQL, Bash
 - *Embedded & IoT*: Arduino Framework, ESP32, PlatformIO, BLE, MQTT, NFC
 - *Web & Frameworks*: SvelteKit, React, Nuxt, Node.js, Bun, Vite, Hono, TailwindCSS, Cloudflare Workers
@@ -76,8 +77,7 @@ XII - 81.5% | X - 93.4%
 - *Data Analysis*: Pandas, NumPy, Matplotlib, Seaborn
 
 
-== Projects
-
+== PROJECTS
 
 #project(
   name: "Proxi",
@@ -132,9 +132,10 @@ XII - 81.5% | X - 93.4%
 
 - Built an end-to-end pipeline as part of High School project to process and visualize Spotify's Extended Streaming History (and analyzed history of ~62K items across 5 years).
 - Enriched listening data with a Kaggle artist dataset to map 1,800+ artists to countries and 800+ genres.
-- Developed a modular plotting library (top-N rankings, daily activity, playtime KDE, artist correlation) with print-ready HTML export.
+- Developed a modular plotting library (top-N rankings, daily activity, playtime KDE, artist correlation).
 - Implemented an interactive per-artist explorer with fuzzy search, covering top tracks, listening streaks, track-length distributions, and album playcounts.
-== Extracurricular Activities
+
+== EXTRACURRICULAR ACTIVITIES
 
 #extracurriculars(
   activity: "Homelabbing",
@@ -157,7 +158,7 @@ XII - 81.5% | X - 93.4%
 //   date: "Oct 2024",
 // )
 
-== Work Experience
+== WORK EXPERIENCE
 
 #work(
   title: "Software Development Intern",
@@ -166,4 +167,4 @@ XII - 81.5% | X - 93.4%
   dates: dates-helper(start-date: "Jan 2025", end-date: "Jul 2025"),
 )
 - Designed and built a full-stack voting application for intra-school council elections, serving 1,000+ voters with enhanced security and transparency.
-- Utilized Python data processing tools including Pandas, Matplotlib, and Seaborn to run post-election analytics and visual reporting. See #link("eva.divijverma.com")
+- Utilized Python data processing tools including Pandas, Matplotlib, and Seaborn to run post-election analytics and visual reporting. See #link("eva.divijverma.com").
