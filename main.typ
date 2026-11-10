@@ -1,6 +1,5 @@
 #import "@preview/basic-resume:0.2.9": *
 
-// Put your personal information here, replacing mine
 #let name = "Divij Verma"
 #let location = "Pune, India"
 #let email = "divij@divijverma.com"
@@ -21,8 +20,8 @@
   phone: phone,
   personal-site: personal-site,
   accent-color: "#594c5b",
-  font: "Untitled Sans",
-  font-size: 9pt,
+  font: "Untitled Serif",
+  font-size: 10pt,
   paper: "a4",
   author-position: left,
   personal-info-position: left,
@@ -69,11 +68,11 @@ XII - 81.5% | X - 93.4%
 
 == SKILLS
 - *Languages*: C, C++, TypeScript, Python, SQL, Bash
-- *Embedded & IoT*: Arduino Framework, ESP32, PlatformIO, BLE, MQTT, NFC
+- *Embedded & IoT*: Arduino Core, ESP32, PlatformIO, BLE, MQTT, NFC
 - *Web & Frameworks*: SvelteKit, React, Nuxt, Node.js, Bun, Vite, Hono, TailwindCSS, Cloudflare Workers
 - *Databases*: MongoDB, SQLite, MySQL, PostgreSQL
 - *Cloud & Infrastructure*: Docker, Linux, Cloudflare Tunnels
-- *Developer Tools*: Git, KiCad, Yaak/Postman, Meson
+- *Developer Tools*: KiCad, Git, Yaak/Postman, Meson
 - *Data Analysis*: Pandas, NumPy, Matplotlib, Seaborn
 
 
@@ -87,13 +86,14 @@ XII - 81.5% | X - 93.4%
 #linebreak()
 #text(
   [
-    _C++, PlatformIO, Arduino Framework, UNO R4 WiFi, ESP32, MQTT, BLE, NFC, TypeScript, HonoJS, SQLite_
+    _C++, PlatformIO, Arduino Core, UNO R4 WiFi, ESP32, MQTT, BLE, NFC, TypeScript, HonoJS, SQLite_
   ],
   size: 9pt,
 )
 
-- Conceptualized and built a modern hardware pager prototype for Nexus'26 Hackathon, enabling physical-first friend discovery and screen-free messaging.
-- Engineered a Hub-and-Spoke architecture using an Aedes MQTT broker and HonoJS REST API to route real-time peer-to-peer messages and maintain centralized device states.
+- Conceptualized and prototyped an end-to-end IoT hardware pager for the Nexus'26 Hackathon, delivering a physical-first social discovery experience via BLE and NFC proximity interactions.
+- Architected a hub-and-spoke topology with an Aedes MQTT broker and HonoJS REST API at the core, enabling low-latency real-time pub/sub messaging and centralized device state management backed by SQLite.
+- Designed a polling-based message pipeline and a non-blocking, cooperatively scheduled audio engine running concurrently on a single-core µC.
 
 #project(
   name: "CBSE Wrapped",
@@ -112,9 +112,9 @@ XII - 81.5% | X - 93.4%
   size: 9pt,
 )
 
-- Reverse-engineered DigiLocker results API and admit card generation algorithms to programmatically fetch, scrape, clean, and analyze CBSE Class XII results for school-wide analysis.
-- Architected a polyglot monorepo containing distinct packages for data scraping, data processing/cleaning, and a website.
-- Engineered algorithms to compute per-subject/aggregate percentiles, automatically infer academic streams from subject combinations, and generate stream-wise and school-wide student rankings.
+- Reverse-engineered the DigiLocker results API and admit-card generation algorithm to build an automated scraping and ETL pipeline that ingested, validated, and cleaned CBSE Class XII results at school-wide scale.
+- Architected a type-safe polyglot monorepo with decoupled packages for data acquisition, Pydantic-validated data processing, and a SvelteKit frontend deployed on Cloudflare Workers' edge network.
+- Engineered analytics algorithms for per-subject and aggregate percentile computation, rule-based academic stream inference from subject combinations, and stream-wise and school-wide ranking.
 
 
 #project(
@@ -130,10 +130,10 @@ XII - 81.5% | X - 93.4%
   size: 9pt,
 )
 
-- Built an end-to-end pipeline as part of High School project to process and visualize Spotify's Extended Streaming History (and analyzed history of ~62K items across 5 years).
-- Enriched listening data with a Kaggle artist dataset to map 1,800+ artists to countries and 800+ genres.
-- Developed a modular plotting library (top-N rankings, daily activity, playtime KDE, artist correlation).
-- Implemented an interactive per-artist explorer with fuzzy search, covering top tracks, listening streaks, track-length distributions, and album playcounts.
+- Built an end-to-end data pipeline to ingest, clean, and visualize Spotify's Extended Streaming History, performing exploratory analysis on ~62K listening records spanning 5 years.
+- Enriched listening data through dataset integration with a Kaggle artist dataset, mapping 1,800+ artists to countries and 800+ genres for geographic and genre-level insights.
+- Developed a modular, reusable visualization library covering top-N rankings, daily activity trends, playtime KDE, and artist correlation analysis.
+- Implemented an interactive per-artist explorer with fuzzy search, surfacing top tracks, listening streaks, track-length distributions, and album playcounts.
 
 == EXTRACURRICULAR ACTIVITIES
 
@@ -157,6 +157,9 @@ XII - 81.5% | X - 93.4%
 //   // url: "",
 //   date: "Oct 2024",
 // )
+
+
+#pagebreak()
 
 == WORK EXPERIENCE
 
