@@ -177,9 +177,6 @@ XII - 81.5% | X - 93.4%
 //   date: "Oct 2024",
 // )
 
-
-#pagebreak()
-
 == WORK EXPERIENCE
 
 #work(
