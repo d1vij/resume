@@ -68,7 +68,7 @@ XII - 81.5% | X - 93.4%
 
 == SKILLS
 - *Languages*: C, C++, TypeScript, Python, SQL, Bash
-- *Embedded & IoT*: Arduino Core, ESP32, PlatformIO, BLE, MQTT, NFC
+- *Embedded & IoT*: Arduino Core, ESP32, PlatformIO, BLE, MQTT, NFC, I2C, SPI, UART
 - *Web & Frameworks*: SvelteKit, React, Nuxt, Node.js, Bun, Vite, Hono, TailwindCSS, Cloudflare Workers
 - *Databases*: MongoDB, SQLite, MySQL, PostgreSQL
 - *Cloud & Infrastructure*: Docker, Linux, Cloudflare Tunnels
@@ -77,6 +77,24 @@ XII - 81.5% | X - 93.4%
 
 
 == PROJECTS
+
+#project(
+  name: "Wolf of the Sky",
+  dates: "2026",
+  url: "github.com/d1vij/WOTS",
+)
+#linebreak()
+#text(
+  [
+    _C++, FreeRTOS, Arduino Core, ESP32, PlatformIO, KiCad, MPU6050, BMP280, NEO-7M_
+  ],
+  size: 9pt,
+)
+
+- Conceptualized and prototyped a two-student-led RC aircraft, owning the end-to-end design of all avionics and flight electronics.
+- Authored KiCad schematics for the complete electronics system, covering the core avionics, telemetry controller, and wing-light circuitry.
+- Architected an auxiliary ESP32 telemetry controller with concurrent FreeRTOS tasks, logging airspeed, pitch and roll, altitude, flight time, distance covered, GPS location, and ambient temperature to an onboard SD card.
+- Designed a 555 timer-based astable circuit driving blinking wing navigation lights, independent of the main flight controller.
 
 #project(
   name: "Proxi",
@@ -91,9 +109,10 @@ XII - 81.5% | X - 93.4%
   size: 9pt,
 )
 
-- Conceptualized and prototyped an end-to-end IoT hardware pager for the Nexus'26 Hackathon, delivering a physical-first social discovery experience via BLE and NFC proximity interactions.
-- Architected a hub-and-spoke topology with an Aedes MQTT broker and HonoJS REST API at the core, enabling low-latency real-time pub/sub messaging and centralized device state management backed by SQLite.
-- Designed a polling-based message pipeline and a non-blocking, cooperatively scheduled audio engine running concurrently on a single-core µC.
+- Built a hardware pager for the Nexus'26 Hackathon that lets people discover each other in person, using BLE for proximity detection and NFC for tap-based interactions.
+- Programmed the device firmware in C++ on UNO R4 WiFi and ESP32 boards, with the two boards communicating over BLE.
+- Set up a hub-and-spoke backend where devices exchange messages through an Aedes MQTT broker, with a HonoJS REST API and SQLite storing device state.
+- Developed a polling-based message pipeline and a cooperatively scheduled, non-blocking audio engine that plays sound while the single-core µC handles other tasks.
 
 #project(
   name: "CBSE Wrapped",
