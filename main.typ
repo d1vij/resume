@@ -81,6 +81,7 @@ XII - 81.5% | X - 93.4%
 #project(
   name: "Wolf of the Sky",
   dates: "2026",
+  role: "Avionics Lead",
   url: "github.com/d1vij/WOTS",
 )
 #linebreak()
@@ -91,7 +92,7 @@ XII - 81.5% | X - 93.4%
   size: 9pt,
 )
 
-- Conceptualized and prototyped a two-student-led RC aircraft, owning the end-to-end design of all avionics and flight electronics.
+- Co-led a two-student RC aircraft prototype with Swara Shinde, owning the end-to-end design of all avionics and flight electronics.
 - Authored KiCad schematics for the complete electronics system, covering the core avionics, telemetry controller, and wing-light circuitry.
 - Architected an auxiliary ESP32 telemetry controller with concurrent FreeRTOS tasks, logging airspeed, pitch and roll, altitude, flight time, distance covered, GPS location, and ambient temperature to an onboard SD card.
 - Designed a 555 timer-based astable circuit driving blinking wing navigation lights, independent of the main flight controller.
@@ -135,7 +136,7 @@ XII - 81.5% | X - 93.4%
 - Architected a type-safe polyglot monorepo with decoupled packages for data acquisition, Pydantic-validated data processing, and a SvelteKit frontend deployed on Cloudflare Workers' edge network.
 - Engineered analytics algorithms for per-subject and aggregate percentile computation, rule-based academic stream inference from subject combinations, and stream-wise and school-wide ranking.
 
-
+/*
 #project(
   name: "Spotify Data Analysis",
   dates: "2025",
@@ -153,7 +154,7 @@ XII - 81.5% | X - 93.4%
 - Enriched listening data through dataset integration with a Kaggle artist dataset, mapping 1,800+ artists to countries and 800+ genres for geographic and genre-level insights.
 - Developed a modular, reusable visualization library covering top-N rankings, daily activity trends, playtime KDE, and artist correlation analysis.
 - Implemented an interactive per-artist explorer with fuzzy search, surfacing top tracks, listening streaks, track-length distributions, and album playcounts.
-
+*/
 == EXTRACURRICULAR ACTIVITIES
 
 #extracurriculars(
