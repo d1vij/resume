@@ -68,7 +68,7 @@ XII - 81.5% | X - 93.4%
 
 == SKILLS
 - *Languages*: C, C++, TypeScript, Python, SQL, Bash
-- *Embedded & IoT*: Arduino Core, ESP32, PlatformIO, BLE, MQTT, NFC, I2C, SPI, UART
+- *Embedded & IoT*: ESP32, FreeRTOS, BLE, MQTT, NFC, Arduino Core, PlatformIO, I2C, SPI, UART
 - *Web & Frameworks*: SvelteKit, React, Nuxt, Node.js, Bun, Vite, Hono, TailwindCSS, Cloudflare Workers
 - *Databases*: MongoDB, SQLite, MySQL, PostgreSQL
 - *Cloud & Infrastructure*: Docker, Linux, Cloudflare Tunnels
@@ -81,7 +81,7 @@ XII - 81.5% | X - 93.4%
 #project(
   name: "Wolf of the Sky",
   dates: "2026",
-  role: "Avionics Lead",
+  // role: "Avionics Lead",
   url: "github.com/d1vij/WOTS",
 )
 #linebreak()
